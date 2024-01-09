@@ -13,13 +13,14 @@ function Hero() {
                 <p>new</p>
                 <img src={hand_icon} alt="" />
             </div>
-            <p>collections</p>
-            <p>for everyone</p>
-        </div>
-        <div className="latest-btn">
-            <h2>Latest collections</h2>
+                <p>collections</p>
+                <p>for everyone</p>
+         <div className="latest-btn">
+            <>Latest collections</>
             <img src={arrow_icon} alt="" />
         </div>
+        </div>
+      
         <div className="hero-right">
             <img src={hero_image} alt="" />
 
