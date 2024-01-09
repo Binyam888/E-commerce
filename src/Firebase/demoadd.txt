@@ -1,0 +1,23 @@
+ <button onClick={async () => { 
+        const dataBase = getFirestore(firebaseData); 
+        // const prodtCol = collection(dataBase, 'Products'); 
+        const addProducet = await addDoc(collection(dataBase,'Products'),{
+            Name : "motrola",
+            Price : "500",
+            catogery : "smartPhone"
+        })
+        console.log(addProducet)
+    return addProducet;
+         
+        
+ 
+      }} >Click me</button> 
+
+
+
+
+      templates
+
+
+      import {firebaseData}  from '../../Firebase/Config'
+import 'firebase/firestore';
