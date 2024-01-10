@@ -29,6 +29,9 @@ function ShopCategory(props) {
  }
         })}
       </div>
+      <div className="shopcatogory-loadmore">
+        Explore More
+      </div>
     </div>
   )
 }
