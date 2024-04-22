@@ -13,8 +13,11 @@ function Hero() {
                 <p>new</p>
                 <img src={hand_icon} alt="" />
             </div>
-                <p>collections</p>
+            
+            <p>collections</p>
                 <p>for everyone</p>
+           
+               
          <div className="latest-btn">
             <>Latest collections</>
             <img src={arrow_icon} alt="" />
