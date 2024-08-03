@@ -4,7 +4,7 @@ import new_collections from '../assets/new_collections'
 import Item from '../Item/Item'
 function NewCollections() {
   return (
-    <div className='NewCollections'>
+    <div className='NewCollections' id='newCollection'>
         <h1>NEW COLLECTIONS</h1>
         <hr />
         <div className="NewCollections-item">
