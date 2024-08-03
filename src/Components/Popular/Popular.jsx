@@ -1,5 +1,5 @@
 import React from 'react'
-import './popular.css'
+import './Popular.css'
 import data_products from '../assets/data'
 import Item from '../Item/Item'
 function Popular() {
